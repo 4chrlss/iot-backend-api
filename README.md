@@ -27,3 +27,17 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
+
+📡 API Endpoints
+
+Method | Endpoint              | Description
+GET    | /api/devices          | List all devices
+POST   | /api/devices          | Create a new device
+GET    | /api/sensor-readings  | List sensor readings
+POST   | /api/readings         | Send a command to a device
+POST   | /api/commands         | Send a command to a device
+
+
+
+
+
